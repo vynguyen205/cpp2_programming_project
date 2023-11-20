@@ -5,12 +5,12 @@ Application that can promptly produce transcripts when students' grades are reco
 ## Style & Guidelines
 - Follows *Course Style Guide*\
 - Name header on *all* files\
-- Changes are submitted as pull requests and approved by project lead\
-**Approval based on:**\
+- Changes are submitted as pull requests and approved by project lead<br>
+##### Approval based on:
 - Commenting proposed changes\
 - Tested against upstream\
 - Follows style & guidelines
 ## Inquiries
-Inquiries may be directed torward agge3 (project lead)\
-Or, m1, m2, m3 (group members)
+agge3 (Project Lead)\
+m1, m2, m3 (Group Members)
 
