@@ -8,10 +8,10 @@ project(cpp2_programming_project
     LANGUAGES CXX)
 
 # add src code
-add_executable(cpp2_programming_project src/main.cpp
-    src/Course
-    src/Student
-    src/StudentList
+add_executable(cpp2_programming_project src/Main.cpp
+    src/Course.cpp
+    src/Student.cpp
+    src/StudentList.cpp
     )
 
 # private vs. public lib & cxx std - will use cxx 17
