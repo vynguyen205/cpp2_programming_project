@@ -12,5 +12,5 @@ Application that can promptly produce transcripts when students' grades are reco
 - Follows style & guidelines
 ## Inquiries
 agge3 (Project Lead)\
-m1, m2, m3 (Group Members)
+kpowkitty, Vy Nguyen (Group Members)
 
