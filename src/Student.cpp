@@ -1,22 +1,19 @@
-#include "student.h"
+#include "Student.h"
 
-Student() {
-    mStudentName = "Not Provided";
-    mStudentID = "Not Provided";
-}
-Student(std::string studentName, std::string StudentID) {
-     mStudentName = studentName;
-     mStudentID = StudentID;
-}
-void set_name(std::string studentName) {
+Student::Student() {}
+
+void Student::setStudentName(std::string studentName) {
     mStudentName = studentName;
 }
-void setStudentID(std::string StudentID) {
+
+void Student::setStudentID(std::string StudentID) {
     mStudentID = StudentID;
 }
-std::string get_name() const {
+
+std::string Student::getStudentName() const {
     return mStudentName;
 }
-std::string getStudentID() const {
+
+std::string Student::getStudentID() const {
     return mStudentID;
 }

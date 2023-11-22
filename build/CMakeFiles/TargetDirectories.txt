@@ -1,0 +1,3 @@
+/home/agge/school/cs250-f23-agge3/cpp2_programming_project/build/CMakeFiles/cpp2_programming_project.dir
+/home/agge/school/cs250-f23-agge3/cpp2_programming_project/build/CMakeFiles/edit_cache.dir
+/home/agge/school/cs250-f23-agge3/cpp2_programming_project/build/CMakeFiles/rebuild_cache.dir

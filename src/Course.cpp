@@ -1,14 +1,11 @@
-#include "course.h"
+#include "Course.h"
 
-Course() {
-    mCourseName = "Not Provided";
-}
-Course(std::string courseName) {
-    mCourseName = courseName;
-}
-void setCourseName(std::string newCourseName) {
+Course::Course() : mCourseName("Not Provided") {}
+
+void Course::setCourseName(std::string newCourseName) {
     mCourseName = newCourseName;
 }
-std::string getCourseName() const {
+
+std::string Course::getCourseName() const {
     return mCourseName;
 }
