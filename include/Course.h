@@ -1,5 +1,5 @@
-#ifndef COURSE.H
-#DEFINE COURSE.H
+#ifndef COURSE_H
+#define COURSE_H
 
 /* 
     Header Class for Courses.
