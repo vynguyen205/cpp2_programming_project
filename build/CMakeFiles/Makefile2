@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.27.8/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/agge/school/cs250-f23-agge3/cpp2_programming_project
+CMAKE_SOURCE_DIR = "/Users/vynguyen/Desktop/Computer Science Courses/Fall 2023/cpp2_programming_project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/agge/school/cs250-f23-agge3/cpp2_programming_project/build
+CMAKE_BINARY_DIR = "/Users/vynguyen/Desktop/Computer Science Courses/Fall 2023/cpp2_programming_project/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/cpp2_programming_project.dir/clean
 CMakeFiles/cpp2_programming_project.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp2_programming_project.dir/build.make CMakeFiles/cpp2_programming_project.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp2_programming_project.dir/build.make CMakeFiles/cpp2_programming_project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/agge/school/cs250-f23-agge3/cpp2_programming_project/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target cpp2_programming_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/vynguyen/Desktop/Computer Science Courses/Fall 2023/cpp2_programming_project/build/CMakeFiles" --progress-num=1,2,3,4,5 "Built target cpp2_programming_project"
 .PHONY : CMakeFiles/cpp2_programming_project.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cpp2_programming_project.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agge/school/cs250-f23-agge3/cpp2_programming_project/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vynguyen/Desktop/Computer Science Courses/Fall 2023/cpp2_programming_project/build/CMakeFiles" 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cpp2_programming_project.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agge/school/cs250-f23-agge3/cpp2_programming_project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vynguyen/Desktop/Computer Science Courses/Fall 2023/cpp2_programming_project/build/CMakeFiles" 0
 .PHONY : CMakeFiles/cpp2_programming_project.dir/rule
 
 # Convenience name for target.

@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/agge/school/cs250-f23-agge3/cpp2_programming_project/src/Course.cpp" "CMakeFiles/cpp2_programming_project.dir/src/Course.cpp.o" "gcc" "CMakeFiles/cpp2_programming_project.dir/src/Course.cpp.o.d"
-  "/home/agge/school/cs250-f23-agge3/cpp2_programming_project/src/Main.cpp" "CMakeFiles/cpp2_programming_project.dir/src/Main.cpp.o" "gcc" "CMakeFiles/cpp2_programming_project.dir/src/Main.cpp.o.d"
-  "/home/agge/school/cs250-f23-agge3/cpp2_programming_project/src/Student.cpp" "CMakeFiles/cpp2_programming_project.dir/src/Student.cpp.o" "gcc" "CMakeFiles/cpp2_programming_project.dir/src/Student.cpp.o.d"
-  "/home/agge/school/cs250-f23-agge3/cpp2_programming_project/src/StudentList.cpp" "CMakeFiles/cpp2_programming_project.dir/src/StudentList.cpp.o" "gcc" "CMakeFiles/cpp2_programming_project.dir/src/StudentList.cpp.o.d"
+  "/Users/vynguyen/Desktop/Computer Science Courses/Fall 2023/cpp2_programming_project/src/Course.cpp" "CMakeFiles/cpp2_programming_project.dir/src/Course.cpp.o" "gcc" "CMakeFiles/cpp2_programming_project.dir/src/Course.cpp.o.d"
+  "/Users/vynguyen/Desktop/Computer Science Courses/Fall 2023/cpp2_programming_project/src/Main.cpp" "CMakeFiles/cpp2_programming_project.dir/src/Main.cpp.o" "gcc" "CMakeFiles/cpp2_programming_project.dir/src/Main.cpp.o.d"
+  "/Users/vynguyen/Desktop/Computer Science Courses/Fall 2023/cpp2_programming_project/src/Student.cpp" "CMakeFiles/cpp2_programming_project.dir/src/Student.cpp.o" "gcc" "CMakeFiles/cpp2_programming_project.dir/src/Student.cpp.o.d"
+  "/Users/vynguyen/Desktop/Computer Science Courses/Fall 2023/cpp2_programming_project/src/StudentList.cpp" "CMakeFiles/cpp2_programming_project.dir/src/StudentList.cpp.o" "gcc" "CMakeFiles/cpp2_programming_project.dir/src/StudentList.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

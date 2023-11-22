@@ -3,16 +3,32 @@
 #include <string>
 
 /*
-    Header Class for Courses.
-    Include:    Course name
+    Baxter, Tyler (Team Leader)
+    Nguyen, Vy
+
+    Project: Grade Report
+    CS A250
+    Fall 2023
 */
 
 class Course {
     public:
         Course();
-        void setCourseName(std::string newCourseName);
+        
         std::string getCourseName() const;
+        int getCourseNumber() const;
+        int getCourseUnits() const;
+        
+        void setCourseName(std::string newCourseName);
+        void setCourseNumber(int courseNumber);
+        void setCourseUnits(int courseUnits);
+
+        //TODO: IMPLETEMENT mystery()
+
         ~Course();
+
     private:
         std::string mCourseName;
+        int mCourseNumber;
+        int mCourseUnits;
 };
